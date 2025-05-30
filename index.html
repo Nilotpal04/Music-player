@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music-player</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="music-player">
+            <nav>
+                <div class="circle"><img src="left-arrow (1).png" class="icon"></div>
+                <div class="circle"><img src="images/radio-cassette (1).png" class="icon"></div>
+            </nav>
+            <h1>Birds of A Feather</h1>
+            <p>Billie Eilish</p>
+            <img src="images/ab67616d0000b27371d62ea7ea8a5be92d3c1f62.jpg" class="song-img">
+
+            <div class="time-info">
+                <span id="current-time">0:00</span>
+                <span id="total-duration">0:00</span>
+            </div>
+
+
+
+            <audio id="song">
+                <source src="assets/Billie_Eilish_-_BIRDS_OF_A_FEATHER_thinknews (mp3cut.net).mp3" type="audio/mpeg">
+            </audio>
+
+            <input type="range" value="0" id="progress">
+
+            <div class="controls">
+                <div><img src="images/player (2).png" class="cicon"></div>
+                <div onclick="playPause()"><img src="images/play.png" class="cicon" id="ctrlicon"></div>
+                <div><img src="images/player (1).png" class="cicon"></div>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
