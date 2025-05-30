@@ -6,8 +6,7 @@ A beautifully styled, responsive music player built with HTML, CSS, and JavaScri
 
 ## 📸 Preview
 
-![Music Player Screenshot](./assets/player-preview.png)  
-<sub>📍 Replace with your actual screenshot image named `player-preview.png` inside the `assets/` folder</sub>
+![Music Player Screenshot](./images/preview.png)  
 
 ---
 
